@@ -1,0 +1,7 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo "Husky: Checking your commit..."
+pnpm run lint
+pnpm run format
+echo -e "Husky: All checks passed.\nCommit successful!\n"
