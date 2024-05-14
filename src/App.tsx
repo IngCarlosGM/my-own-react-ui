@@ -1,5 +1,5 @@
 function App() {
-  return <p>My own library of React</p>;
+  return <p className='text-lg font-semibold'>My own library of React</p>;
 }
 
 export default App;
